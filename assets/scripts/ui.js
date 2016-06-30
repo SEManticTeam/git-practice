@@ -1,6 +1,6 @@
 'use strict';
 
-const indexBooks = require('../handlebars/indexBooks.handlebars');
+const indexBooks = require('../../handlebars/indexBooks.handlebars');
 
 const failure = (data) => {
   $('#content').html('<h2 style="color:red">Request Failed</h2>');
