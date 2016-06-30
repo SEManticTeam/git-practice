@@ -1,4 +1,4 @@
-<div id="book-listing">
+<div class="book-listing">
   <h1>Book List</h1>
  <button class='btn btn-md btn-default' onClick="window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print List</button>
   <table class="table table-hover" id="book-table">
@@ -14,7 +14,7 @@
     <td><h4>{{id}}</h4></td>
     <td><h4>{{title}}</h4></td>
     <td>{{author}}</h4></td>
-<td><button type="button" class="close" style="text-align:center" id="unclaimItem" data-id={{id}}><span aria-hidden="true">&times;</span></button>
+<td><button type="button" class="close" style="text-align:center" id="deleteBook" data-id={{id}}><span aria-hidden="true">&times;</span></button>
 </td>
 
     {{/books}}
