@@ -10,8 +10,11 @@ const showBooks = (data) => {
   $('#content').html(indexBooks(data));
 };
 
+const bookDeleted = (data) => {
+};
 
 module.exports = {
   failure,
   showBooks,
+  bookDeleted,
 };
