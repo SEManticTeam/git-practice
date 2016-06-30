@@ -9,6 +9,16 @@ body {
   text-align: center;
 }
 
+table {
+  line-height: $table-line-height;
+  margin-top: $vertical-margin;
+}
+
+.book-listing {
+  margin-left: 10%;
+  width: 80%;
+}
+
 .btn-lg {
   text-align: center;
 }
